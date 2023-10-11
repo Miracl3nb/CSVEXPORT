@@ -1,0 +1,20 @@
+La idea es capturar los datos de un cvs estructurarlo en columnas y filas agregar una columna en la que se agregue un string
+un url + id el idea lo sacamos del cvs 
+
+
+
+1 >> capturamos los datos del archivo 
+
+
+2 >> los iteramos y creamos un diccionario 
+    >() "id" : ["21313","123123","12313,]
+        "nombre" : ["asdad", "asdasd", "asdads"]
+
+
+3 >> ponemos toda esa info en otro archivo excel
+ agregando un una columna "URL" con valor "http://10.1.1.215/glpi/front/ticket.form.php?id=" + {str(id)}
+
+
+HASTA AHORA ESO ES LO QUE SE ME OCURRE
+
+
